@@ -32,7 +32,7 @@ var length = parseInt(prompt("How many characters in password?")
 
 // Check to see if what they entered was a number
 if (Number.isNaN(length)) {
-  alert("Password lenght must be provided as a number");
+  alert("Password length must be provided as a number");
   return null;
 }
 
